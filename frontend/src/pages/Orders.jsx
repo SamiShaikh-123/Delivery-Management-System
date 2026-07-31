@@ -12,7 +12,7 @@ function Orders() {
   const [editingId, setEditingId] = useState(null);
 
   const [formData, setFormData] = useState({
-    user_id: "",
+    user_id: 1,
     restaurant_id: "",
     menu_item_id: "",
     quantity: "",
@@ -66,7 +66,7 @@ function Orders() {
       fetchOrders();
 
       setFormData({
-        user_id: "",
+        user_id: 1,
         restaurant_id: "",
         menu_item_id: "",
         quantity: "",

@@ -44,7 +44,7 @@ function OrderForm({
         className="grid grid-cols-1 md:grid-cols-2 gap-4"
       >
 
-        <input
+        {/* <input
           type="number"
           name="user_id"
           placeholder="User ID"
@@ -52,7 +52,7 @@ function OrderForm({
           onChange={handleChange}
           className="border rounded p-3"
           required
-        />
+        /> */}
 
         <select
           name="restaurant_id"
