@@ -11,7 +11,9 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'docker compose build'
+                dir('docker'){
+                   sh 'docker compose build'
+                }
             }
         }
 
