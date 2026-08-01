@@ -17,7 +17,11 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh 'docker compose up -d'
+                dir('docker'){
+                     sh 'docker compose up -d'
+                }
+
+
             }
         }
 
