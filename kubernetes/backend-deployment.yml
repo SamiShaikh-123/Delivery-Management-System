@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: delivery-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: docker-backend:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000
+        env:
+        - name: DB_HOST
+          value: "mysql"
+        - name: DB_USER
+          value: "sami"
+        - name: DB_PASSWORD
+          value: "sami123"
+        - name: DB_NAME
+          value: "delivery_db"
+        - name: JWT_SECRET
+          value: "mysecretkey"
