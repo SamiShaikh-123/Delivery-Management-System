@@ -530,83 +530,130 @@ Jenkins
 Dashboard → Build Now → Console Output
 ```
 
+
+
 ---
+# 📸 Project Gallery
 
-# 📸 Project Screenshots
-
-> **Note:** All screenshots are stored inside the `screenshots/` directory.
-
-## 🏠 Home Page
-
-![Home Page](screenshots/home-page.png)
+> The following screenshots demonstrate different stages of the project implementation.
 
 ---
 
 ## 🔐 Login Page
 
-![Login](screenshots/login-page.png)
+![](screenshots/login-page.png)
 
 ---
 
-## 📦 Docker Images
+## 📊 Dashboard
 
-![Docker Images](screenshots/docker-images.png)
+![](screenshots/dashboard.png)
+
+---
+
+## 🍽️ Restaurant Page
+
+![](screenshots/restaurant.png)
+
+---
+
+## 📋 Menu Page
+
+![](screenshots/menu.png)
+
+---
+
+## 📦 Orders Page
+
+![](screenshots/orders.png)
+
+---
+
+## 🐳 Docker Images
+
+![](screenshots/docker-images.png)
 
 ---
 
 ## 🐳 Running Docker Containers
 
-![Docker Containers](screenshots/docker-containers.png)
+![](screenshots/docker-containers.png)
+
+---
+
+## 🐳 Docker Compose
+
+![](screenshots/docker-compose.png)
 
 ---
 
 ## ☸️ Kubernetes Pods
 
-![Pods](screenshots/kubernetes-pods.png)
+![](screenshots/kubernetes-pods.png)
 
 ---
 
 ## 🌐 Kubernetes Services
 
-![Services](screenshots/kubernetes-services.png)
+![](screenshots/kubernetes-services.png)
+
+---
+
+## 📦 Kubernetes Deployments
+
+![](screenshots/kubernetes-deployments.png)
+
+---
+
+## 🏷️ Kubernetes Namespaces
+
+![](screenshots/kubernetes-namespaces.png)
 
 ---
 
 ## 🔄 Jenkins Dashboard
 
-![Jenkins](screenshots/jenkins-dashboard.png)
+![](screenshots/jenkins-dashboard.png)
 
 ---
 
 ## ✅ Successful Jenkins Build
 
-![Jenkins Build](screenshots/jenkins-success.png)
+![](screenshots/jenkins-success.png)
 
 ---
 
-## 🌍 Terraform Apply
+## 📜 Jenkins Console Output
 
-![Terraform](screenshots/terraform-apply.png)
+![](screenshots/jenkins-console.png)
+
+---
+
+## 🌍 Terraform Plan
+
+![](screenshots/terraform-plan1.png)
+![](screenshots/terraform-plan2.png)
 
 ---
 
 ## ☁️ AWS EC2 Instance
 
-![EC2](screenshots/aws-ec2.png)
+![](screenshots/aws-ec2.png)
 
 ---
 
-## 📈 Prometheus Dashboard
+## 📂 GitHub Repository
 
-![Prometheus](screenshots/prometheus.png)
-
----
-
-## 📊 Grafana Dashboard
-
-![Grafana](screenshots/grafana.png)
+![](screenshots/github-repository.png)
 
 ---
+
+## 💻 Project Structure (VS Code)
+
+![](screenshots/project-structure.png)
+
+
+
 
 # 🔄 CI/CD Workflow
 
